@@ -4,6 +4,6 @@ int main() {
     int a,b;
     scanf("%d %d", &a,&b);
     int result;
-    result=(a!|b)
+    result=(a!|b);
     return 0;
 }
