@@ -13,7 +13,7 @@ int countingleadingzeroes(int n) {
 
 int main(){
     int n;
-    scanf("%d", n);
+    scanf("%d", &n);
     printf("%d\n", countingleadingzeroes(n));
     return 0;
 }
