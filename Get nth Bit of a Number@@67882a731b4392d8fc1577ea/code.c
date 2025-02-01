@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-if get_nth_bit(int number, int position){
-    return (number>> position) & 1;
+int get_nth_bit(int number, int position){
+    return (number >> position) & 1;
 }
 
 int main() {
