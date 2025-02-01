@@ -8,5 +8,6 @@ int main() {
     int num,pos;
     scanf("%d %d", &num, &pos);
     int result= clear_nth_bit(num,pos);
+    printf("%d", result);
     return 0;
 }
