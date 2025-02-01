@@ -8,6 +8,6 @@ int main() {
     int num,pos;
     scanf("%d %d", &num, &pos);
     int bit_value= get_nth_bit(num,pos);
-    printf("%d", pos,bit_value);
+    printf("%d", bit_value);
     return 0;
 }
