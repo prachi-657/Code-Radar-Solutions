@@ -6,6 +6,7 @@ int countingleadingzeroes(int n) {
         if ((n>>1)& 1){
             break;
         }
+        printf("%d", count);
         count++;
     }
     return count;
