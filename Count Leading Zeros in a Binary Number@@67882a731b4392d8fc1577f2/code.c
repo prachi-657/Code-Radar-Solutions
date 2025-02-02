@@ -6,7 +6,6 @@ int countingleadingzeroes(int n) {
         if ((n>>1)& 1){
             break;
         }
-        printf("%d", count);
         count++;
     }
     return count;
@@ -16,5 +15,6 @@ int main(){
     unsigned int n;
     scanf("%d", &n);
     printf("%d\n", countingleadingzeroes(n));
+    printf("%d", count);
     return 0;
 }
