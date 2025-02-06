@@ -13,8 +13,7 @@ int countingTrailingZeroes(int n) {
 
 int main() {
     int n;
-    printf("Enter a number: ");
     scanf("%d", &n);
-    printf("Number of trailing zeroes: %d\n", countingTrailingZeroes(n));
+    printf("%d\n", countingTrailingZeroes(n));
     return 0;
 }
