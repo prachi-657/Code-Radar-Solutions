@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-int countingleadingzeroes(int n) {
+int countingleadingzeroes(unsigned int n) {
     int count =0;
     for (int i=31; i>=0; i--){
-        if ((n>>1)& 1){
+        if ((n>>i)& 1){
             break;
         }
         count++;
@@ -13,8 +13,7 @@ int countingleadingzeroes(int n) {
 
 int main(){
     unsigned int n;
-    scanf("%d", &n);
+    scanf("%u", &n);
     printf("%d\n", countingleadingzeroes(n));
-    printf("%d", count);
     return 0;
 }
