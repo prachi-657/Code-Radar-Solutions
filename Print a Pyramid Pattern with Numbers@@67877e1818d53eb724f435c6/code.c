@@ -7,11 +7,10 @@ int main() {
         for (int j = i; j < n; j++) {
             printf(" ");
         }
-        int num=1;
+        int num = 1;
         for (int k = 1; k <= (2 * i - 1); k++) {
-            
             printf("%d", num);
-            num+=1;
+            num++;
         }
         printf("\n");
     }
