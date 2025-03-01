@@ -7,10 +7,8 @@ int main() {
         for (int j = i; j < n; j++) {
             printf(" ");
         }
-        int num = 1;
-        for (int k = 1; k <= (i+1); k++) {
-            printf("%d", num);
-            num++;
+        for (int k = 1; k <= i; k++) {
+            printf("%d ", k);
         }
         printf("\n");
     }
