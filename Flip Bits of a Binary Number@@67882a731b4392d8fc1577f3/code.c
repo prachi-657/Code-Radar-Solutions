@@ -1,12 +1,16 @@
 #include <stdio.h>
 
-unsigned int flipBits(unsigned int num) {
+int flipBits(int num) {
     return ~num;
 }
+
 int main() {
-    unsigned int num;
-    scanf("%u", &num);
-    unsigned int flippedNum = flipBits(num);
-    printf("%u\n", flippedNum);
+    int num;
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    int flippedNum = flipBits(num);
+    printf("Flipped number: %d\n", flippedNum);
+
     return 0;
 }
