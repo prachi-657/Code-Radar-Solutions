@@ -12,4 +12,5 @@ int main(){
         printf("D");
     else if (score<60);
         printf("F");
+    return 0;
 }
